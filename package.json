@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npx json-server -p 3004 -w db.json\" \"next dev --turbopack\"",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.2",
+    "json-server": "^1.0.0-beta.3",
+    "next": "15.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^9.1.0",
+    "sass": "^1.83.0",
+    "typescript": "^5"
+  }
+}

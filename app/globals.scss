@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor-muted: #151b23;
+  --link-color: #1677ff;
+}
+
+.homeWrapper {
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+
+  .logo {
+    border-radius: 50px;
+  }
+}

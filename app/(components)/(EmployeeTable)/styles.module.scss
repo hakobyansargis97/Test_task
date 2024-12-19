@@ -1,0 +1,66 @@
+.createEmployeeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  color: gray;
+  text-decoration: none;
+  transition-duration: 200ms;
+  font-size: 18px;
+  gap: 16px;
+  height: 40px;
+  margin: 20px auto;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.employeeTable {
+  height: calc(100vh - 144px);
+
+  .tHead {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 2fr) 1fr 2fr;
+    background-color: #ededed;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.159);
+    & > p {
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      min-width: 40px;
+      &:not(:first-child) {
+        border-left: 1px solid ghostwhite;
+        padding: 10px;
+      }
+    }
+  }
+  .tBody {
+    height: calc(100vh - 208px);
+    overflow-y: auto;
+
+    .tBodyItem {
+      @extend .tHead;
+      background-color: #fff;
+      border-bottom: none;
+      & > p:last-of-type {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        & svg {
+          cursor: pointer;
+        }
+      }
+
+      &:hover {
+        background-color: #f7f4f448;
+      }
+    }
+  }
+}

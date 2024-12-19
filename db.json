@@ -1,0 +1,46 @@
+{
+  "departments": [
+    {
+      "id": "2df9ec7d-f009-4fe8-a9f0-64efda2b92-1",
+      "name": "Cardiology"
+    },
+    {
+      "id": "ebf75edd-d487-4227-b77c-1043e9900e-2",
+      "name": "Surgery"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "851f2023-bb3e-480a-8fa1-79c2f531f603",
+      "name": "Gary",
+      "lastName": "Aabedi",
+      "surname": "Alexander",
+      "department": "Cardiology",
+      "headOfDepartment": true
+    },
+    {
+      "id": "24c4a03d-9cc7-4cc8-b844-39bc922f8546",
+      "name": "Philip",
+      "lastName": "Weinstein",
+      "surname": "Brian",
+      "department": "Cardiology",
+      "headOfDepartment": true
+    }
+  ],
+  "nurses": [
+    {
+      "id": "837bf378-bb95-4cca-af87-a9bf94766e5e",
+      "name": "Stella",
+      "lastName": "Aaboe",
+      "surname": "Thomas",
+      "department": "Cardiology"
+    },
+    {
+      "id": "e751d63e-0555-44ad-aaf7-5aeeef2f5a89",
+      "name": "Elizabeth",
+      "lastName": "Willmes",
+      "surname": "Gregory",
+      "department": "Surgery"
+    }
+  ]
+}
